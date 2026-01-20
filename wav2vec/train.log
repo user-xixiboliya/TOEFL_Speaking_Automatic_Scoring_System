@@ -1,0 +1,360 @@
+nohup: ignoring input
+
+============================================================
+配置信息
+============================================================
+数据集: /root/autodl-tmp/sla_dataset_concat.json
+设备: cuda
+Batch Size: 16
+学习率: 0.001
+训练轮数: 100
+Early Stopping Patience: 15
+============================================================
+
+/root/miniconda3/envs/NLP/lib/python3.12/site-packages/torchaudio/functional/functional.py:582: UserWarning: At least one mel filterbank has all zero values. The value for `n_mels` (128) may be set too high. Or, the value for `n_freqs` (201) may be set too low.
+  warnings.warn(
+加载 train 数据集: 1742 个样本
+
+数据集划分:
+  训练集: 1393 个样本
+  验证集: 349 个样本
+  总计: 1742 个样本
+
+
+模型信息:
+  总参数量: 2,751,681
+  可训练参数量: 2,751,681
+  设备: cuda
+
+
+============================================================
+开始训练
+============================================================
+
+Epoch [1/100] (13.3s)
+  Train Loss: 1.5764 | MAE: 0.8912 | MSE: 1.5764
+  Val   Loss: 0.4479 | MAE: 0.5394 | MSE: 0.4479 | Corr: 0.2836
+  ✓ 保存最佳模型 (Val Loss: 0.4479)
+
+Epoch [2/100] (13.3s)
+  Train Loss: 0.6210 | MAE: 0.6349 | MSE: 0.6210
+  Val   Loss: 0.4121 | MAE: 0.5168 | MSE: 0.4121 | Corr: 0.2671
+  ✓ 保存最佳模型 (Val Loss: 0.4121)
+
+Epoch [3/100] (13.1s)
+  Train Loss: 0.5518 | MAE: 0.5923 | MSE: 0.5518
+  Val   Loss: 0.4510 | MAE: 0.5442 | MSE: 0.4510 | Corr: 0.3560
+
+Epoch [4/100] (12.8s)
+  Train Loss: 0.5046 | MAE: 0.5669 | MSE: 0.5046
+  Val   Loss: 0.3596 | MAE: 0.4813 | MSE: 0.3596 | Corr: 0.3913
+  ✓ 保存最佳模型 (Val Loss: 0.3596)
+
+Epoch [5/100] (13.0s)
+  Train Loss: 0.5065 | MAE: 0.5743 | MSE: 0.5065
+  Val   Loss: 0.4220 | MAE: 0.5234 | MSE: 0.4220 | Corr: 0.3934
+
+Epoch [6/100] (13.0s)
+  Train Loss: 0.5472 | MAE: 0.5842 | MSE: 0.5472
+  Val   Loss: 0.3549 | MAE: 0.4781 | MSE: 0.3549 | Corr: 0.3953
+  ✓ 保存最佳模型 (Val Loss: 0.3549)
+
+Epoch [7/100] (13.1s)
+  Train Loss: 0.5054 | MAE: 0.5647 | MSE: 0.5054
+  Val   Loss: 0.4052 | MAE: 0.5136 | MSE: 0.4052 | Corr: 0.3893
+
+Epoch [8/100] (12.8s)
+  Train Loss: 0.5235 | MAE: 0.5754 | MSE: 0.5235
+  Val   Loss: 0.3918 | MAE: 0.5043 | MSE: 0.3918 | Corr: 0.4014
+
+Epoch [9/100] (12.8s)
+  Train Loss: 0.5070 | MAE: 0.5652 | MSE: 0.5070
+  Val   Loss: 0.3508 | MAE: 0.4755 | MSE: 0.3508 | Corr: 0.4125
+  ✓ 保存最佳模型 (Val Loss: 0.3508)
+
+Epoch [10/100] (13.0s)
+  Train Loss: 0.4720 | MAE: 0.5556 | MSE: 0.4720
+  Val   Loss: 0.3681 | MAE: 0.4861 | MSE: 0.3681 | Corr: 0.4007
+
+Epoch [11/100] (12.8s)
+  Train Loss: 0.5023 | MAE: 0.5678 | MSE: 0.5023
+  Val   Loss: 0.3517 | MAE: 0.4762 | MSE: 0.3517 | Corr: 0.4117
+
+Epoch [12/100] (12.9s)
+  Train Loss: 0.5253 | MAE: 0.5751 | MSE: 0.5253
+  Val   Loss: 0.3762 | MAE: 0.4941 | MSE: 0.3762 | Corr: 0.4062
+
+Epoch [13/100] (12.9s)
+  Train Loss: 0.4782 | MAE: 0.5499 | MSE: 0.4782
+  Val   Loss: 0.3497 | MAE: 0.4766 | MSE: 0.3497 | Corr: 0.4219
+  ✓ 保存最佳模型 (Val Loss: 0.3497)
+
+Epoch [14/100] (13.1s)
+  Train Loss: 0.4849 | MAE: 0.5498 | MSE: 0.4849
+  Val   Loss: 0.3477 | MAE: 0.4739 | MSE: 0.3477 | Corr: 0.4122
+  ✓ 保存最佳模型 (Val Loss: 0.3477)
+
+Epoch [15/100] (12.9s)
+  Train Loss: 0.4607 | MAE: 0.5463 | MSE: 0.4607
+  Val   Loss: 0.5428 | MAE: 0.5934 | MSE: 0.5428 | Corr: 0.4171
+
+Epoch [16/100] (13.3s)
+  Train Loss: 0.5191 | MAE: 0.5792 | MSE: 0.5191
+  Val   Loss: 0.3496 | MAE: 0.4751 | MSE: 0.3496 | Corr: 0.4094
+
+Epoch [17/100] (13.0s)
+  Train Loss: 0.4544 | MAE: 0.5362 | MSE: 0.4544
+  Val   Loss: 0.3548 | MAE: 0.4804 | MSE: 0.3548 | Corr: 0.4215
+
+Epoch [18/100] (13.0s)
+  Train Loss: 0.4829 | MAE: 0.5537 | MSE: 0.4829
+  Val   Loss: 0.3986 | MAE: 0.5051 | MSE: 0.3986 | Corr: 0.4202
+
+Epoch [19/100] (12.9s)
+  Train Loss: 0.4525 | MAE: 0.5312 | MSE: 0.4525
+  Val   Loss: 0.3424 | MAE: 0.4699 | MSE: 0.3424 | Corr: 0.4319
+  ✓ 保存最佳模型 (Val Loss: 0.3424)
+
+Epoch [20/100] (12.9s)
+  Train Loss: 0.4852 | MAE: 0.5614 | MSE: 0.4852
+  Val   Loss: 0.3686 | MAE: 0.4856 | MSE: 0.3686 | Corr: 0.4253
+
+Epoch [21/100] (13.3s)
+  Train Loss: 0.4765 | MAE: 0.5499 | MSE: 0.4765
+  Val   Loss: 0.3700 | MAE: 0.4898 | MSE: 0.3700 | Corr: 0.4455
+
+Epoch [22/100] (13.2s)
+  Train Loss: 0.4786 | MAE: 0.5541 | MSE: 0.4786
+  Val   Loss: 0.3387 | MAE: 0.4635 | MSE: 0.3387 | Corr: 0.4531
+  ✓ 保存最佳模型 (Val Loss: 0.3387)
+
+Epoch [23/100] (13.0s)
+  Train Loss: 0.4497 | MAE: 0.5366 | MSE: 0.4497
+  Val   Loss: 0.3296 | MAE: 0.4597 | MSE: 0.3296 | Corr: 0.4622
+  ✓ 保存最佳模型 (Val Loss: 0.3296)
+
+Epoch [24/100] (13.0s)
+  Train Loss: 0.4832 | MAE: 0.5486 | MSE: 0.4832
+  Val   Loss: 0.3317 | MAE: 0.4608 | MSE: 0.3317 | Corr: 0.4701
+
+Epoch [25/100] (12.9s)
+  Train Loss: 0.4386 | MAE: 0.5318 | MSE: 0.4386
+  Val   Loss: 0.3465 | MAE: 0.4696 | MSE: 0.3465 | Corr: 0.4740
+
+Epoch [26/100] (12.9s)
+  Train Loss: 0.4689 | MAE: 0.5491 | MSE: 0.4689
+  Val   Loss: 0.8272 | MAE: 0.7681 | MSE: 0.8272 | Corr: 0.4714
+
+Epoch [27/100] (13.0s)
+  Train Loss: 0.4694 | MAE: 0.5422 | MSE: 0.4694
+  Val   Loss: 0.3573 | MAE: 0.4838 | MSE: 0.3573 | Corr: 0.4847
+
+Epoch [28/100] (13.3s)
+  Train Loss: 0.4494 | MAE: 0.5302 | MSE: 0.4494
+  Val   Loss: 0.3504 | MAE: 0.4791 | MSE: 0.3504 | Corr: 0.4967
+
+Epoch [29/100] (12.9s)
+  Train Loss: 0.4577 | MAE: 0.5393 | MSE: 0.4577
+  Val   Loss: 0.3192 | MAE: 0.4527 | MSE: 0.3192 | Corr: 0.4968
+  ✓ 保存最佳模型 (Val Loss: 0.3192)
+
+Epoch [30/100] (13.1s)
+  Train Loss: 0.4239 | MAE: 0.5220 | MSE: 0.4239
+  Val   Loss: 0.5847 | MAE: 0.6281 | MSE: 0.5847 | Corr: 0.4924
+
+Epoch [31/100] (13.2s)
+  Train Loss: 0.4922 | MAE: 0.5580 | MSE: 0.4922
+  Val   Loss: 0.3263 | MAE: 0.4539 | MSE: 0.3263 | Corr: 0.4775
+
+Epoch [32/100] (13.0s)
+  Train Loss: 0.4135 | MAE: 0.5066 | MSE: 0.4135
+  Val   Loss: 0.3197 | MAE: 0.4491 | MSE: 0.3197 | Corr: 0.4853
+
+Epoch [33/100] (13.3s)
+  Train Loss: 0.4459 | MAE: 0.5342 | MSE: 0.4459
+  Val   Loss: 0.3331 | MAE: 0.4655 | MSE: 0.3331 | Corr: 0.5075
+
+Epoch [34/100] (13.1s)
+  Train Loss: 0.4297 | MAE: 0.5239 | MSE: 0.4297
+  Val   Loss: 0.3277 | MAE: 0.4601 | MSE: 0.3277 | Corr: 0.5144
+
+Epoch [35/100] (13.4s)
+  Train Loss: 0.4527 | MAE: 0.5361 | MSE: 0.4527
+  Val   Loss: 0.4763 | MAE: 0.5525 | MSE: 0.4763 | Corr: 0.4982
+
+Epoch [36/100] (13.0s)
+  Train Loss: 0.4599 | MAE: 0.5371 | MSE: 0.4599
+  Val   Loss: 0.3109 | MAE: 0.4446 | MSE: 0.3109 | Corr: 0.5073
+  ✓ 保存最佳模型 (Val Loss: 0.3109)
+
+Epoch [37/100] (12.8s)
+  Train Loss: 0.4178 | MAE: 0.5168 | MSE: 0.4178
+  Val   Loss: 0.3167 | MAE: 0.4499 | MSE: 0.3167 | Corr: 0.5129
+
+Epoch [38/100] (12.9s)
+  Train Loss: 0.4040 | MAE: 0.5083 | MSE: 0.4040
+  Val   Loss: 0.3489 | MAE: 0.4696 | MSE: 0.3489 | Corr: 0.5127
+
+Epoch [39/100] (13.3s)
+  Train Loss: 0.4105 | MAE: 0.5134 | MSE: 0.4105
+  Val   Loss: 0.3297 | MAE: 0.4607 | MSE: 0.3297 | Corr: 0.5134
+
+Epoch [40/100] (13.1s)
+  Train Loss: 0.4163 | MAE: 0.5175 | MSE: 0.4163
+  Val   Loss: 0.3044 | MAE: 0.4382 | MSE: 0.3044 | Corr: 0.5231
+  ✓ 保存最佳模型 (Val Loss: 0.3044)
+
+Epoch [41/100] (13.0s)
+  Train Loss: 0.3998 | MAE: 0.5011 | MSE: 0.3998
+  Val   Loss: 0.3267 | MAE: 0.4588 | MSE: 0.3267 | Corr: 0.5223
+
+Epoch [42/100] (12.9s)
+  Train Loss: 0.3979 | MAE: 0.5039 | MSE: 0.3979
+  Val   Loss: 0.3639 | MAE: 0.4866 | MSE: 0.3639 | Corr: 0.5174
+
+Epoch [43/100] (13.2s)
+  Train Loss: 0.4097 | MAE: 0.5175 | MSE: 0.4097
+  Val   Loss: 0.3386 | MAE: 0.4686 | MSE: 0.3386 | Corr: 0.5215
+
+Epoch [44/100] (13.4s)
+  Train Loss: 0.3993 | MAE: 0.5013 | MSE: 0.3993
+  Val   Loss: 0.3220 | MAE: 0.4530 | MSE: 0.3220 | Corr: 0.5176
+
+Epoch [45/100] (12.9s)
+  Train Loss: 0.4125 | MAE: 0.5120 | MSE: 0.4125
+  Val   Loss: 0.3062 | MAE: 0.4393 | MSE: 0.3062 | Corr: 0.5261
+
+Epoch [46/100] (12.9s)
+  Train Loss: 0.3901 | MAE: 0.4966 | MSE: 0.3901
+  Val   Loss: 0.3068 | MAE: 0.4392 | MSE: 0.3068 | Corr: 0.5196
+
+Epoch [47/100] (13.0s)
+  Train Loss: 0.3849 | MAE: 0.4973 | MSE: 0.3849
+  Val   Loss: 0.3045 | MAE: 0.4378 | MSE: 0.3045 | Corr: 0.5346
+
+Epoch [48/100] (13.2s)
+  Train Loss: 0.3936 | MAE: 0.5015 | MSE: 0.3936
+  Val   Loss: 0.3098 | MAE: 0.4418 | MSE: 0.3098 | Corr: 0.5268
+
+Epoch [49/100] (13.3s)
+  Train Loss: 0.3700 | MAE: 0.4871 | MSE: 0.3700
+  Val   Loss: 0.3050 | MAE: 0.4362 | MSE: 0.3050 | Corr: 0.5300
+
+Epoch [50/100] (13.3s)
+  Train Loss: 0.3909 | MAE: 0.4926 | MSE: 0.3909
+  Val   Loss: 0.4051 | MAE: 0.5061 | MSE: 0.4051 | Corr: 0.5195
+
+Epoch [51/100] (13.3s)
+  Train Loss: 0.3765 | MAE: 0.4890 | MSE: 0.3765
+  Val   Loss: 0.3007 | MAE: 0.4323 | MSE: 0.3007 | Corr: 0.5315
+  ✓ 保存最佳模型 (Val Loss: 0.3007)
+
+Epoch [52/100] (13.2s)
+  Train Loss: 0.3795 | MAE: 0.4898 | MSE: 0.3795
+  Val   Loss: 0.3029 | MAE: 0.4354 | MSE: 0.3029 | Corr: 0.5249
+
+Epoch [53/100] (13.6s)
+  Train Loss: 0.4073 | MAE: 0.5154 | MSE: 0.4073
+  Val   Loss: 0.2986 | MAE: 0.4310 | MSE: 0.2986 | Corr: 0.5361
+  ✓ 保存最佳模型 (Val Loss: 0.2986)
+
+Epoch [54/100] (13.2s)
+  Train Loss: 0.3764 | MAE: 0.4919 | MSE: 0.3764
+  Val   Loss: 0.2974 | MAE: 0.4315 | MSE: 0.2974 | Corr: 0.5382
+  ✓ 保存最佳模型 (Val Loss: 0.2974)
+
+Epoch [55/100] (13.0s)
+  Train Loss: 0.3850 | MAE: 0.4951 | MSE: 0.3850
+  Val   Loss: 0.3048 | MAE: 0.4372 | MSE: 0.3048 | Corr: 0.5238
+
+Epoch [56/100] (13.1s)
+  Train Loss: 0.3704 | MAE: 0.4860 | MSE: 0.3704
+  Val   Loss: 0.3079 | MAE: 0.4376 | MSE: 0.3079 | Corr: 0.5401
+
+Epoch [57/100] (13.0s)
+  Train Loss: 0.3906 | MAE: 0.5042 | MSE: 0.3906
+  Val   Loss: 0.2995 | MAE: 0.4328 | MSE: 0.2995 | Corr: 0.5344
+
+Epoch [58/100] (13.0s)
+  Train Loss: 0.3941 | MAE: 0.4967 | MSE: 0.3941
+  Val   Loss: 0.3031 | MAE: 0.4327 | MSE: 0.3031 | Corr: 0.5281
+
+Epoch [59/100] (13.0s)
+  Train Loss: 0.3777 | MAE: 0.4951 | MSE: 0.3777
+  Val   Loss: 0.3004 | MAE: 0.4294 | MSE: 0.3004 | Corr: 0.5315
+
+Epoch [60/100] (13.1s)
+  Train Loss: 0.3784 | MAE: 0.4893 | MSE: 0.3784
+  Val   Loss: 0.3042 | MAE: 0.4364 | MSE: 0.3042 | Corr: 0.5408
+
+Epoch [61/100] (12.9s)
+  Train Loss: 0.3508 | MAE: 0.4792 | MSE: 0.3508
+  Val   Loss: 0.3070 | MAE: 0.4366 | MSE: 0.3070 | Corr: 0.5348
+
+Epoch [62/100] (12.9s)
+  Train Loss: 0.3700 | MAE: 0.4872 | MSE: 0.3700
+  Val   Loss: 0.3044 | MAE: 0.4335 | MSE: 0.3044 | Corr: 0.5219
+
+Epoch [63/100] (13.0s)
+  Train Loss: 0.3345 | MAE: 0.4610 | MSE: 0.3345
+  Val   Loss: 0.3021 | MAE: 0.4318 | MSE: 0.3021 | Corr: 0.5283
+
+Epoch [64/100] (13.0s)
+  Train Loss: 0.3822 | MAE: 0.4936 | MSE: 0.3822
+  Val   Loss: 0.3148 | MAE: 0.4437 | MSE: 0.3148 | Corr: 0.5364
+
+Epoch [65/100] (13.0s)
+  Train Loss: 0.3639 | MAE: 0.4816 | MSE: 0.3639
+  Val   Loss: 0.3031 | MAE: 0.4336 | MSE: 0.3031 | Corr: 0.5270
+
+Epoch [66/100] (12.9s)
+  Train Loss: 0.3517 | MAE: 0.4753 | MSE: 0.3517
+  Val   Loss: 0.3081 | MAE: 0.4354 | MSE: 0.3081 | Corr: 0.5249
+
+Epoch [67/100] (13.1s)
+  Train Loss: 0.3424 | MAE: 0.4650 | MSE: 0.3424
+  Val   Loss: 0.2995 | MAE: 0.4284 | MSE: 0.2995 | Corr: 0.5350
+
+Epoch [68/100] (13.3s)
+  Train Loss: 0.3719 | MAE: 0.4844 | MSE: 0.3719
+  Val   Loss: 0.3014 | MAE: 0.4302 | MSE: 0.3014 | Corr: 0.5327
+
+Epoch [69/100] (13.1s)
+  Train Loss: 0.3613 | MAE: 0.4780 | MSE: 0.3613
+  Val   Loss: 0.3083 | MAE: 0.4364 | MSE: 0.3083 | Corr: 0.5308
+
+Early stopping triggered at epoch 69
+============================================================
+训练完成
+============================================================
+
+已加载最佳模型: /root/autodl-tmp/models/checkpoints/best_model.pth
+
+============================================================
+最终测试集评估
+============================================================
+
+测试集指标:
+  MSE (均方误差):        0.2974
+  RMSE (均方根误差):     0.5454
+  MAE (平均绝对误差):    0.4315
+  Pearson 相关系数:      0.5382
+  P-value:              0.000000
+
+预测示例 (前10个):
+  真实值 | 预测值 | 误差
+  ------------------------------
+  1.88   | 2.60   | 0.72
+  4.12   | 3.57   | 0.56
+  3.62   | 3.90   | 0.28
+  3.38   | 3.24   | 0.13
+  4.00   | 4.36   | 0.36
+  4.75   | 4.62   | 0.13
+  4.25   | 4.11   | 0.14
+  5.12   | 4.12   | 1.00
+  4.00   | 4.17   | 0.17
+  4.00   | 3.53   | 0.47
+
+============================================================
+完成！
+============================================================
